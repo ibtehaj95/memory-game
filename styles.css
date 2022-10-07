@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    /* font-size: 200%; */
+    color: rgb(172, 59, 14);
+}
+
+h3{
+    text-align: center;
+    color: rgb(112, 115, 121);
+}
+
+.main-container{
+    display: flex;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 1rem;
+    align-self: center;
+}
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 1rem;
+}
+
+.cards-row{
+    display: flex;
+    /* flex-grow: 0.2; */
+    /* align-self: center; */
+    justify-content: space-around;
+}
+
+.cards-col img{
+    /* width: 125%; */
+}
+
+#cards-matched-number, #attempts-number, #attempts-record{
+    font-size: 400%;
+    margin: 0;
+    color: rgb(72, 120, 14);
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-container{
+        flex-direction: column;
+    }
+    
+    .score-container{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        /* flex-grow: 1;
+        justify-content: space-between; */
+    }
+
+    .scores-container{
+        display: flex;
+        flex-direction: row;
+        font-size: 100%;
+        justify-content: space-evenly;
+    }
+
+    .score-title-container{
+        /* flex-grow: 1; */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cards-col{
+        width: 10%;
+    }
+}

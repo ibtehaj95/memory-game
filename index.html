@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <div class="main-container">
+        <div class="cards-container">
+            <div class="cards-row">
+                <div class="cards-col">
+                    <img src="./assets/pair_0.jpg" id="image_0" alt="card-0" data-pair="0" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_0.jpg" id="image_1" alt="card-0" data-pair="0" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_1.jpg" id="image_2" alt="card-1" data-pair="1" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_1.jpg" id="image_3" alt="card-1" data-pair="1" data-matched="0">
+                </div>
+            </div>
+            <div class="cards-row">
+                <div class="cards-col">
+                    <img src="./assets/pair_2.jpg" id="image_4" alt="card-2" data-pair="2" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_2.jpg" id="image_5" alt="card-2" data-pair="2" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_3.jpg" id="image_6" alt="card-3" data-pair="3" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_3.jpg" id="image_7" alt="card-3" data-pair="3" data-matched="0">
+                </div>
+            </div>
+            <div class="cards-row">
+                <div class="cards-col">
+                    <img src="./assets/pair_4.jpg" id="image_8" alt="card-4" data-pair="4" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_4.jpg" id="image_9" alt="card-4" data-pair="4" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_5.jpg" id="image_10" alt="card-5" data-pair="5" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_5.jpg" id="image_11" alt="card-5" data-pair="5" data-matched="0">
+                </div>
+            </div>
+            <div class="cards-row">
+                <div class="cards-col">
+                    <img src="./assets/pair_6.jpg" id="image_12" alt="card-6" data-pair="6" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_6.jpg" id="image_13" alt="card-6" data-pair="6" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_7.jpg" id="image_14" alt="card-7" data-pair="7" data-matched="0">
+                </div>
+                <div class="cards-col">
+                    <img src="./assets/pair_7.jpg" id="image_15" alt="card-7" data-pair="7" data-matched="0">
+                </div>
+            </div>
+        </div>
+        <div class="score-container">
+            <div class="score-title-container">
+                <h2>Scoreboard</h2>
+            </div>
+            <div class="scores-container">
+                <div class="cards-div">
+                    <h3>Cards Matched</h3>
+                    <h3 id="cards-matched-number">0</h3>
+                </div>
+                <div class="attempts-div">
+                    <h3>Attempts</h3>
+                    <h3 id="attempts-number">0</h3>
+                </div>
+                <div class="record-div">
+                    <h3>Record</h3>
+                    <h3 id="attempts-record">0</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
