@@ -1,5 +1,5 @@
 # memory-game
-A simple card matching game. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/Games/Memory_Game/.
+A simple card matching game. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/games/memory_game/.
 
 The game can also be enjoyed on most phones (tested on Firefox and Chrome).
 
